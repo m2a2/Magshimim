@@ -1,0 +1,23 @@
+Console – ניתן להריץ קוד Javascript בקונטקסט של הדף
+
+alert(document.location.origin);
+
+img_element =document.createElement("img");
+
+
+
+$0.appendChild(img_element);
+
+
+Console – ניתן להריץ קוד Javascript בקונטקסט של הדף
+https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded
+
+
+alert(document.location.origin);
+
+img_element =document.createElement("img");
+img_element.src = "https://assets.gamepur.com/wp-content/uploads/2021/02/22222643/zlXPhn0m-overwatch-2-logo-light-850x478.jpg";
+$0.appendChild(img_element);
+
+Sources – דפים שהגיע מהשרת
+

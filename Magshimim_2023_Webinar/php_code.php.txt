@@ -1,0 +1,23 @@
+https://www.programiz.com/php/online-compiler/
+
+<?php
+// Online PHP compiler to run PHP program online
+echo "Hello World!\n";
+$array1 = array();
+$array1[] = 1;
+$array1[] = 'm2a';
+$array1[] = 3;
+
+print_r($array1);
+echo "\n";
+
+//Serialize
+$serializeArray = serialize($array1);
+print_r($serializeArray);
+
+//Unserialize
+$array2 = unserialize($serializeArray);
+
+print_r($array2);
+echo "Goodbye World!\n";
+?>
